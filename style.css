@@ -1,0 +1,246 @@
+body {
+    background: linear-gradient(180deg,#ebe3e3,#3DB2FF, #9d5ed8);
+    font-family: 'Montserrat',sans-serif
+}
+
+/*HR*/
+hr {
+    border-top: #b9c6ff dotted 5px;
+    margin: auto;
+    width: 3%;
+    padding: 15px 0;
+}
+.hr-3 {
+    position: relative;
+    top: 60px;
+}
+
+
+/*MEDIA SCREEN SIZE*/
+
+@media (max-width: 800px) {
+    .logo-img {
+        position: relative;
+        left:120px;
+    }
+    .help-title {
+        position: relative;
+        top: 50px;
+        right: 300px;
+    }
+    .help-p {
+        position: relative;
+        top: 50px;
+        right: 300px;
+    }
+}
+
+
+/*NAV BAR*/
+
+.navbar{
+    background-color: #FFEDDA; 
+    border-radius: 50px;
+    margin-top: 50px;
+    padding: 0.5% 0 0.5% 2%;
+   
+}
+.navbar-brand {
+    font-size: 3rem;
+    padding-left: 1%;
+    font-weight: bold;
+}
+.nav-link {
+    padding: 7%;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.toggler {
+    border-radius: 50px;
+    background:linear-gradient(-40deg, #47ABFA,#8078e4 );
+}
+
+
+
+/*TITLE*/
+#title {
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+}
+.text-head {
+    
+    font-size:6.2rem;
+    color:#0056B3;
+    padding: 200px  0 180px 0;
+   
+}
+/*b9c6ff*/
+.text-title {
+    color: #0056B3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.logo-img {
+
+    border-radius:50%;
+    border-right: double 1.8rem #030e33;
+    margin: 125px 0 70px 0;
+    width: 400px;
+}
+/*Features*/
+#features {
+    background: linear-gradient(-1deg, #ebe3e3, rgb(36, 158, 240));
+    border-radius: 4%;
+    padding: 5% 7%;
+    margin: 4% 0;
+    text-align: center;
+    line-height: 2;
+}
+
+.features-icon {
+    color: #F9B837;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+ }
+
+.features-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0056B3;
+}
+.features-p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.08rem;
+    line-height: 3;
+    color: #8f8f8f;
+}
+
+
+/*(-90deg, FFD2A5, 3DB2FF);*/
+/*WHO I AM --PRESENTATION------ FAFFAF*/
+#presentation {
+    background:linear-gradient(25deg, #CDF0EA, #3DB2FF);
+    border-radius: 4%;
+    font-family:  'Montserrat', sans-serif;
+    text-align: center;
+    padding: 3% 4.5%;
+}
+.presentation-head {
+    color: #0056B3;
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 12.5px 0;
+    position: relative;
+    right: 42.5%;
+}
+.presentation-p  {
+    color: #030e33;
+    font-weight: bold;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: auto;
+    padding:25px 0;
+    width: 550px;
+}
+.presentation-img {
+    margin:20px 0;
+    border-radius: 50%;
+    float: right;
+    width: 300px;
+}
+
+
+/*WHO I CAN DO --OPERATION--*/
+.slide {
+    padding: 0 25px 0 25px ;    
+    margin: 50px 0 ;
+}
+#operation {
+    background: linear-gradient(25deg, #b0c6f5,#3DB2FF);
+    border-radius: 4%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#operation-title {
+    color: #0056B3;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 5%;
+    padding: 7% 0 3.5% 0;
+}
+.operation-head {
+    color: #3c64c9;
+    font-size:1.2rem ;
+    font-weight: 600;
+    line-height:2.2rem;
+    margin: auto;
+    width:900px;
+}.img-operation {
+    border-radius: 50%;
+    padding: 4% 0 2% 0;
+    margin: auto;
+    width: 140px;
+}
+
+/*I CAN HELP */
+
+#help {
+    background: linear-gradient(-190deg, #FFEDDA,#3DB2FF);
+   border-top-left-radius: 5%;
+   border-top-right-radius: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding:15px;
+}
+.right {
+    float: right;
+    padding-right: 4%;
+}
+.img-help {
+    color: #077fff ;
+    margin-right: 20px;
+    padding: 8px;
+    font-size: 1.4rem;
+    position: relative;
+    top: 6px;
+}
+.img-help:hover {
+    color: #0c2e9e;
+}
+.help-title {
+    color:#077fff;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 325px;
+    padding: 8% 0 5% 0;
+}
+.help-p {
+    color: #0c2e9e;
+    font-weight: 600;
+    line-height: 2;
+    text-align: justify;
+    font-size: 1.2rem;
+    padding-left: 30px;
+    width: 680px;
+    margin-left: 300px;
+}
+
+
+/*FOOTER*/
+.text-footer {
+    border-radius: 5%;
+    color: #3354cc;
+    font-style: italic;
+    text-align: center;
+    margin-top: 100px;
+ }
